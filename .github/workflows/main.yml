@@ -37,6 +37,6 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./tarminal
-        destination_dir: ./terminal
-        keep_files: true
+        destination_dir: ./
+        keep_files: false
 
